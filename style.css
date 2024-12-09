@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(102, 93, 93);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px; /* Ajusta este valor según tus necesidades */
+    height: 200px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover; /* Asegura que la imagen se ajuste al cuadrado */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    padding: 30px 20px; /* Aumenta el padding para más espacio interno */
+    border-radius: 10px;
+    width: 500px; /* Aumenta el ancho de la tarjeta */
+    background-color: #353531;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.localidad {
+    color: #FF9505;
+    font-size: 1.8em; /* Aumenta el tamaño de la fuente */
+}
+
+h1 {
+    font-size: 3em; /* Aumenta el tamaño de la fuente del título */
+}
+
+p {
+    font-size: 1.7em; /* Aumenta el tamaño de la fuente del párrafo */
+}
+
+a {
+    width: 100%;
+    height: 40px; /* Aumenta la altura de los botones */
+    margin-bottom: 15px; /* Aumenta el margen inferior de los botones */
+    border-radius: 8px;
+    background-color: #016FB9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente de los botones */
+}
+
+a:hover {
+    background-color: #FF9505;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+}
